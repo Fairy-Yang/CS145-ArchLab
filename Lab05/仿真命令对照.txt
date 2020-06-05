@@ -1,0 +1,21 @@
+lw $1 2($0)
+lw $2 3($0)
+sw 6($0) $1
+add $3 $2 $1
+sub $4 $2 $1
+and $5 $2 $1
+beq $1 $5 10
+nop
+nop
+beqhere/10: or $6 $2 $1
+slt $7 $1 $2
+addi $1 $8 3
+andi $2 $9 2
+ori $1 $10 3
+j here
+nop
+there jr $31 
+nop
+here:  sll $11 $1 1
+jal there
+$31's location: srl $12 $1 1
