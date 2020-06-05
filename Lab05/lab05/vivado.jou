@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun May 31 16:33:45 2020
+# Process ID: 8376
+# Current directory: C:/Users/Administrator/Desktop/lab5/lab05
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18880 C:\Users\Administrator\Desktop\lab5\lab05\lab05.xpr
+# Log file: C:/Users/Administrator/Desktop/lab5/lab05/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/lab5/lab05\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/lab5/lab05/lab05.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/singleCycle_tb/top/alu}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+save_wave_config {C:/Users/Administrator/Desktop/lab5/lab05/singleCycle_tb_behav.wcfg}
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/singleCycle_tb/top/pc}} 
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 5}
+add_wave {{/singleCycle_tb/top/register}} 
+current_wave_config {Untitled 5}
+add_wave {{/singleCycle_tb/top/pc}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 6}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+current_wave_config {Untitled 6}
+add_wave {{/singleCycle_tb/top/pc}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 7}
+add_wave {{/singleCycle_tb/top/pc}} 
+current_wave_config {Untitled 7}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 8}
+add_wave {{/singleCycle_tb/top/pc}} 
+current_wave_config {Untitled 8}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 9}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 10}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 11}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 12}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 13}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 14}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+update_compile_order -fileset sources_1
+current_wave_config {Untitled 14}
+add_wave {{/singleCycle_tb/top/pc}} 
+relaunch_sim
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source singleCycle_tb.tcl
+current_wave_config {Untitled 15}
+add_wave {{/singleCycle_tb/top/pc}} 
+relaunch_sim
+current_wave_config {Untitled 15}
+add_wave {{/singleCycle_tb/top/register}} 
+relaunch_sim
+close_sim
